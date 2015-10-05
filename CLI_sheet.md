@@ -47,7 +47,7 @@ A lot of the expert mode commands are also available within GAiA clish as “ext
 | `ver` | Show CP version and build as well as kernel info. |
 | `cpshared_ver` | Show the version of the SVN Foundation. |
 | `cpview` | Tool combining several Check Point and Linux commands into a great text based tool providing both OS and software blade information. See <span style="text-decoration: underline" lang="zxx">[sk101878](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk101878)</span>.|
-| `fw stat` or<br> `fw stat <-l\|--long>` or<br> `fw stat <-s\|--short>` | Show the name of the current policy and a brief interface list. Use `-l` or `-s` for more info. Consider using `cpstat fw` instead of `-l` or `-s` switch for better formatted output.|
+| `fw stat` or<br> `fw stat <-l|--long>` or<br> `fw stat <-s|--short>` | Show the name of the current policy and a brief interface list. Use `-l` or `-s` for more info. Consider using `cpstat fw` instead of `-l` or `-s` switch for better formatted output.|
 | `fw ctl iflist` | Display interface list. |
 | `fw ctl arp [-n]` | Display proxy arp table. `-n` disables name resolution. |
 | `cp_conf finger get`| Display fingerprint on the management module. |
