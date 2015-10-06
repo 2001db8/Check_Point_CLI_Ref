@@ -277,3 +277,6 @@ Capture traffic on a SecuRemote/SecureClient client into a file
 | `cphaprob -vs <id> register` | Register a faildevice and switch VS `<id>` to the next cluster member (only in Per VS HA/VSLS).
 | `$linux_command -z <id>`<br>`traceroute -Z <id>` | In R68 set context for `ifconfig`, `ip`, `arp`, `ping` or `netstat`. Uppercase “`Z`” for `traceroute.`
 A lot of Check Point's commands up to R68 do understand the `-vs <id>` switch. With newer versions you often have to change context with `vsenv <id>` before issuing the commands.
+
+---
+SecurePlatform, SofaWare, SmartCenter, ClusterXL, SecureXL, Flood-Gate-1, Provider-1, VSX, IPSO, VPN-1/UTM-1 Edge and GAiA are all registered trademarks of Check Point Software Technologies, Ltd.
